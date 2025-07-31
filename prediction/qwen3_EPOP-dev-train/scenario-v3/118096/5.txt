@@ -1,0 +1,58 @@
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "African HBL vector"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Geographic", "name": "Portugal"},
+      {"type": "Geographic", "name": "province of Huelva"},
+      {"type": "Geographic", "name": "Ayamonte"},
+      {"type": "Geographic", "name": "Porto"},
+      {"type": "Geographic", "name": "Galicia"},
+      {"type": "Geographic", "name": "Cantabria"},
+      {"type": "Geographic", "name": "Asturias"},
+      {"type": "Geographic", "name": "Basque Country"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Pest", "name": "Diaphorina citri"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Pest", "name": "Trioza erytreae"},
+      {"type": "Geographic", "name": "Algarve"},
+      {"type": "Geographic", "name": "Israel"},
+      {"type": "Geographic", "name": "Hefer Valley"},
+      {"type": "Geographic", "name": "Tel Aviv"},
+      {"type": "Plant", "name": "Citrange reed"},
+      {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "Florida"},
+      {"type": "Organization", "name": "Citrus Management Committee"},
+      {"type": "Organization", "name": "European Commission"},
+      {"type": "Organization", "name": "General Directorate of Health and Food Safety"},
+      {"type": "Organization", "name": "Valencian Institute of Agrarian Research"},
+      {"type": "Organization", "name": "Jaume I University"},
+      {"type": "Organization", "name": "University of Florida"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "African HBL vector", "type": "Located in", "target": "Portugal"},
+      {"source": "African HBL vector", "type": "Located in", "target": "province of Huelva"},
+      {"source": "African HBL vector", "type": "Located in", "target": "Ayamonte"},
+      {"source": "African HBL vector", "type": "Located in", "target": "Porto"},
+      {"source": "African HBL vector", "type": "Located in", "target": "Galicia"},
+      {"source": "African HBL vector", "type": "Located in", "target": "Cantabria"},
+      {"source": "African HBL vector", "type": "Located in", "target": "Asturias"},
+      {"source": "African HBL vector", "type": "Located in", "target": "Basque Country"},
+      {"source": "African HBL vector", "type": "Transmits", "target": "Candidatus Liberibacter asiaticus"},
+      {"source": "Diaphorina citri", "type": "Transmits", "target": "Candidatus Liberibacter asiaticus"},
+      {"source": "Diaphorina citri", "type": "Transmits", "target": "HLB"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Israel"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Hefer Valley"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "target": "Citrange reed"},
+      {"source": "Trioza erytreae", "type": "Located in", "target": "Algarve"},
+      {"source": "Trioza erytreae", "type": "Have been found on", "target": "citrus"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+      {"source": "HLB", "type": "Affects", "target": "citrus"}
+    ]
+  }
+]
+

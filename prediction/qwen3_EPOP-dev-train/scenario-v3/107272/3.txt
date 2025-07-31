@@ -1,0 +1,63 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Fusarium wilt"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Disease", "name": "Tropical Race 4"},
+      {"type": "Disease", "name": "Fusarium wilt of banana"},
+      {"type": "Pest", "name": "Fusarium fungus"},
+      {"type": "Pest", "name": "Fusarium odoratissimum"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Plant", "name": "Cavendish banana"},
+      {"type": "Plant", "name": "local banana strains"},
+      {"type": "Plant", "name": "African banana varieties"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "Mozambique"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Tanzania"},
+      {"type": "Geographic", "name": "Malawi"},
+      {"type": "Geographic", "name": "Uganda"},
+      {"type": "Geographic", "name": "Ruanda"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "Latin America"},
+      {"type": "Geographic", "name": "Wageningen"},
+      {"type": "Geographic", "name": "Utrecht"},
+      {"type": "Vector", "name": "humans"},
+      {"type": "Vector", "name": "cars"},
+      {"type": "Vector", "name": "water"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium fungus", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Fusarium fungus", "type": "Causes", "target": "Panama disease"},
+      {"source": "Fusarium odoratissimum", "type": "Causes", "target": "Fusarium wilt of banana"},
+      {"source": "Tropical Race 4", "type": "Causes", "target": "Fusarium wilt of banana"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Mozambique"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Asia"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "South America"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Africa"},
+      {"source": "Fusarium wilt of banana", "type": "Affects", "target": "banana"},
+      {"source": "Fusarium wilt of banana", "type": "Affects", "target": "Cavendish banana"},
+      {"source": "Fusarium wilt of banana", "type": "Affects", "target": "local banana strains"},
+      {"source": "Fusarium wilt of banana", "type": "Affects", "target": "African banana varieties"},
+      {"source": "Fusarium fungus", "type": "Have been found on", "target": "banana"},
+      {"source": "Fusarium odoratissimum", "type": "Have been found on", "target": "banana"},
+      {"source": "Tropical Race 4", "type": "Have been found on", "target": "banana"},
+      {"source": "humans", "type": "Transmits", "target": "Fusarium odoratissimum"},
+      {"source": "cars", "type": "Transmits", "target": "Fusarium odoratissimum"},
+      {"source": "water", "type": "Transmits", "target": "Fusarium odoratissimum"},
+      {"source": "banana", "type": "Located in", "target": "Africa"},
+      {"source": "banana", "type": "Located in", "target": "Mozambique"},
+      {"source": "banana", "type": "Located in", "target": "Tanzania"},
+      {"source": "banana", "type": "Located in", "target": "Malawi"},
+      {"source": "banana", "type": "Located in", "target": "Uganda"},
+      {"source": "banana", "type": "Located in", "target": "Ruanda"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Africa"},
+      {"source": "local banana strains", "type": "Located in", "target": "Africa"},
+      {"source": "African banana varieties", "type": "Located in", "target": "Africa"}
+    ]
+  }
+]
+

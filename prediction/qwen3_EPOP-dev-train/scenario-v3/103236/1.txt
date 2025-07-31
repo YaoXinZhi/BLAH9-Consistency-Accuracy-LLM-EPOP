@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Vector",
+      "name": "insects"
+    },
+    {
+      "type": "Plant",
+      "name": "orange trees"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus trees"
+    },
+    {
+      "type": "Plant",
+      "name": "orange tree"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Geographic",
+      "name": "Buhaira Gardens"
+    },
+    {
+      "type": "Geographic",
+      "name": "Seville"
+    },
+    {
+      "type": "Geographic",
+      "name": "Spain"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographic",
+      "name": "European Union"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Huanglongbing",
+      "type": "Causes",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "insects",
+      "type": "Transmits",
+      "target": "Huanglongbing"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Have been found on",
+      "target": "orange trees"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Affects",
+      "target": "orange tree"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Affects",
+      "target": "citrus trees"
+    },
+    {
+      "source": "orange trees",
+      "type": "Located in",
+      "target": "Buhaira Gardens"
+    },
+    {
+      "source": "citrus trees",
+      "type": "Located in",
+      "target": "Seville"
+    },
+    {
+      "source": "orange tree",
+      "type": "Located in",
+      "target": "Seville"
+    },
+    {
+      "source": "Buhaira Gardens",
+      "type": "Located in",
+      "target": "Seville"
+    },
+    {
+      "source": "Seville",
+      "type": "Located in",
+      "target": "Spain"
+    },
+    {
+      "source": "Spain",
+      "type": "Located in",
+      "target": "Europe"
+    },
+    {
+      "source": "European Union",
+      "type": "Located in",
+      "target": "Europe"
+    }
+  ]
+}
+
